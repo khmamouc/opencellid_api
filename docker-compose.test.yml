@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    environment:
+      - POSTGRES_DB=test_db
+
+  db:
+    environment:
+      - POSTGRES_DB=test_db
+    volumes:
+      - ./containers/dumps/testdb.dump:/dumps/

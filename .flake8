@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 88
+extend-ignore = D100,D101,D102,D103,D107,D202,D205,D401
+exclude = .git,__pycache__,__init__.py,.mypy_cache,.pytest_cache,.tox,setup.py
